@@ -1,5 +1,5 @@
 import './App.css';
-
+import '@fortawesome/fontawesome-free/css/all.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header';
@@ -15,10 +15,10 @@ import ContactPage from './pages/ContactPage';
 function App() {
   return (
     <div className="App">
-      <Header/>
-
       <BrowserRouter>
-        <Nav/>
+        <Header>
+          <Nav/>
+        </Header>
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='Productos' element={<ProductsPage />} />
@@ -26,7 +26,6 @@ function App() {
           <Route path='Nosotros' element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
-
       <Footer/>
     </div>
   );

@@ -1,12 +1,16 @@
 import React from "react";
+import '../styles/HomePage.css';
+import mueblesCocina from '../assets/img/muebles_cocina.jpg';
 
 const HomePage = (props) => {
     return (
         <main>
-            <div class="banner_presentacion"></div>
+            <div className="home-page" style={{ backgroundImage: `url(${mueblesCocina})` }}>
+            {/* Tu contenido aquí */}
             <div className="presentacion">
                 <h1>LG AMOBLAMIENTOS</h1>
                 <p>Diseño y fabricación de muebles con estilo</p>
+            </div>
             </div>
 
             <div className="iconos">

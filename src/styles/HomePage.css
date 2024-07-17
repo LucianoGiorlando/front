@@ -1,0 +1,168 @@
+.home-page {
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 37.5rem;
+    opacity: 0.8;
+    filter: brightness(0.8);
+}
+
+.presentacion {
+    position: absolute;
+    top: 20rem;
+    width: 100%;
+}
+
+.presentacion h1 {
+    margin: 0;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 0.3rem #000;
+}
+
+.presentacion p {
+    margin: 0;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 0 0 0.3rem #000;
+    color: #fff;
+}
+
+.iconos {
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.icono {
+    width: 11rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    background-color: #DDD0C8;
+    color: #555D50;
+    border-radius: 50%;
+    transform: scale(0.9);
+    border: solid 0.25rem #555D50;
+    box-shadow: 0 0 0.3rem #fff;
+}
+
+.icono i {
+    font-size: 3.6rem;
+    transform: translateY(1rem);
+}
+
+.icono p {
+    padding-top: 0.6rem;
+    transform: translateY(1.25rem);
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.icono:hover {
+    transform: scale(1);
+    color: #555D50;
+    background-color: #DDD0C8;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    color: #F5F5F5;
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+ul li {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+
+.bienvenida {
+    margin: 2rem auto;
+    max-width: 90%;
+}
+
+.bienvenida img {
+    margin: 1rem 0;
+    margin-right: 3rem;
+    width: 800px;
+    float: left;
+    border-radius: 20px;
+    border: solid 0.25rem #555D50;
+    box-shadow: 0 0 0.3rem #fff;
+    opacity: 0.8;
+}
+
+.text_box h2 {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text_box ul li {   
+    text-align: justify;
+}
+
+
+.info {
+    margin: 3rem auto;
+    max-width: 90%;
+    min-height: 65vh;
+}
+
+.info img {
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    width: 800px;
+    float: right;
+    border-radius: 20px;
+    border: solid 0.25rem #555D50;
+    box-shadow: 0 0 0.3rem #fff;
+    opacity: 0.8;
+}
+
+.info ul li {
+    text-align: justify;
+}

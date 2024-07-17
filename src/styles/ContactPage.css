@@ -1,0 +1,224 @@
+.q_somos {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 70%;
+    
+}
+
+aside {
+    width: 30%;
+}
+
+article {
+    margin: auto;
+    margin-top: 2.5rem;
+    width: 90%;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sol, .yo, .nina {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 8px #555D50, -3px -3px 8px #555D50;
+}
+
+.team img {
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    border: solid 0.25rem #555D50;
+    box-shadow: 0 0 0.3rem #fff;
+    opacity: 0.7;
+    transform: scale(0.9);
+    transition: all 0.4s ease;
+}
+
+.yo:hover img, .sol:hover img, .nina:hover img {
+    opacity: 1;
+    transform: scale(1);
+    border: solid 0.25rem #7BA05B;
+    box-shadow: 0 0 0.3rem #fff;
+    transform: ;
+}
+
+.team p {
+    margin-bottom: 0;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5rem;
+    background-color: #111;
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 8px #555D50, -3px -3px 8px #555D50;
+    color: #DDD0C8;
+}
+
+
+
+.form h2 {
+    text-align: center;
+}
+
+.form label, .form input, .form textarea {
+    width: 80%;
+    margin: auto;
+}
+
+.form label {
+    padding: 0.5rem 0;
+    padding-left: 5px;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.form span {
+    color: #7BA05B;
+    font-size: 1.2rem;
+}
+
+.form input {
+    background-color: #111;
+    border: none;
+    border-bottom: solid 2px #555D50;
+    padding: 5px 0;
+    padding-left: 5px;
+    color: #DDD0C8;
+    font-weight: 300;
+    
+}
+
+.form input:focus {
+    color: #fff;
+    outline: none;
+    border-bottom: solid 3px #7BA05B;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.form textarea {
+    background-color: #111;
+    color: #DDD0C8;
+    border-radius: 5px;
+    height: 8rem;
+    resize: none;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.form textarea:focus {
+    color: #fff;
+}
+
+#submit {
+    margin-bottom: 1.5rem;
+    border: solid 2px #555D50;
+    border-radius: 5px;
+    background-color: #DDD0C8;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#submit:hover {
+    cursor: pointer;
+    color: #555D50;
+    background-color: #F5F5F5;
+}
+
+#file {
+    border: none;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.requerido {
+    font-size: 0.7rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+
+.redes {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: #111;
+    color: #DDD0C8;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 8px #555D50, -3px -3px 8px #555D50;
+}
+
+.redes h3 {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.redes_iconos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes_iconos i {
+    font-size: 2.5rem;
+}
+
+.redes_iconos a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.redes_iconos h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+.whatsapp, .instagram, .facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0.9);
+    transition: all 0.5s ease;
+}
+
+.whatsapp:hover, .instagram:hover, .facebook:hover {
+    color: # ;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.redes_iconos a:link, a:visited {
+    color: #DDD0C8;
+} 
+
+.redes_iconos a:hover {
+    color: #7BA05B;
+}

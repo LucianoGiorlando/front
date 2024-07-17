@@ -1,0 +1,442 @@
+.coleccion {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.coleccion_presentacion {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coleccion_presentacion h2 {
+    text-align: center;
+}
+
+.coleccion_presentacion p {
+    margin: 0;
+    padding: 0 8rem;
+    line-height: 2rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.coleccion_img {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.coleccion_img img {
+    width: 100%;
+    max-height: 510px;
+    opacity: 0.7;
+    border-radius: 0 0 0 32rem;
+}
+
+
+
+.muebles_cocina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.muebles_cocina_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    z-index: 1;
+}
+
+.muebles_cocina_text h2 {
+    margin: 0;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+}
+
+.muebles_cocina_text p {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 400;
+}
+
+.muebles_cocina img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.8;
+    filter: brightness(0.8);
+    border-top: solid 4px #fff;
+    border-bottom: solid 4px #fff;
+}
+
+
+.coleccion_cocina {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+.coleccion_cocina_alacena {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.coleccion_cocina_isla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.coleccion_cocina_despensero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+    
+.coleccion_cocina h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding-left: 5px;
+    box-shadow: -3px 3px 4px #555D50;
+    font-weight: 500;
+}
+.coleccion_cocina img {
+    /* width: 30rem; */
+    width: 85%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.coleccion_cocina p {
+    margin: 0;
+    padding: 1rem;
+    background-color: #111;
+    font-size: 1.2rem;
+    /* width: 30rem; */
+    width: 85%;
+    text-align: justify;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 3px 5px #555D50;
+}
+
+
+
+
+.muebles_comedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.muebles_comedor_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    z-index: 1;
+}
+
+.muebles_comedor_text h2 {
+    margin: 0;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+}
+
+.muebles_comedor_text p {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 400;
+}
+
+.muebles_comedor img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.8;
+    filter: brightness(0.8);
+    border-top: solid 4px #fff;
+    border-bottom: solid 4px #fff;
+}
+
+
+.coleccion_comedor {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.coleccion_comedor_mesa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+
+.coleccion_comedor_barra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.coleccion_comedor_aparador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.coleccion_comedor h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding-left: 5px;
+    box-shadow: -3px 3px 4px #555D50;
+    font-weight: 500;
+}
+.coleccion_comedor img {
+    /* width: 30rem; */
+    width: 85%;
+    border-radius: 2rem 2rem 0 0;
+}
+.coleccion_comedor p {
+    margin: 0;
+    padding: 1rem;
+    background-color: #111;
+    font-size: 1.2rem;
+    /* width: 30rem; */
+    width: 85%;
+    text-align: justify;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 3px 5px #555D50;
+}
+
+
+
+
+
+
+.muebles_habitacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.muebles_habitacion_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    z-index: 1;
+}
+
+.muebles_habitacion_text h2 {
+    margin: 0;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+}
+
+.muebles_habitacion_text p {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 400;
+}
+
+.muebles_habitacion img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.8;
+    filter: brightness(0.8);
+    border-top: solid 4px #fff;
+    border-bottom: solid 4px #fff;
+}
+
+
+.coleccion_habitacion {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.coleccion_habitacion_cama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+
+.coleccion_habitacion_mesita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.coleccion_habitacion_placard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.coleccion_habitacion h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding-left: 5px;
+    box-shadow: -3px 3px 4px #555D50;
+    font-weight: 500;
+}
+.coleccion_habitacion img {
+    /* width: 30rem; */
+    width: 85%;
+    border-radius: 2rem 2rem 0 0;
+}
+.coleccion_habitacion p {
+    margin: 0;
+    padding: 1rem;
+    background-color: #111;
+    font-size: 1.2rem;
+    /* width: 30rem; */
+    width: 85%;
+    text-align: justify;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 3px 5px #555D50;
+}
+
+
+
+
+.muebles_estar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.muebles_estar_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    z-index: 1;
+}
+
+.muebles_estar_text h2 {
+    margin: 0;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+}
+
+.muebles_estar_text p {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 400;
+}
+
+.muebles_estar img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.8;
+    filter: brightness(0.8);
+    border-top: solid 4px #fff;
+    border-bottom: solid 4px #fff;
+}
+
+
+.coleccion_estar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.coleccion_estar_rack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+
+.coleccion_estar_mesa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.coleccion_estar_escritorio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.coleccion_estar h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding-left: 5px;
+    box-shadow: -3px 3px 4px #555D50;
+    font-weight: 500;
+}
+.coleccion_estar img {
+    /* width: 30rem; */
+    width: 85%;
+    border-radius: 2rem 2rem 0 0;
+}
+.coleccion_estar p {
+    margin: 0;
+    padding: 1rem;
+    background-color: #111;
+    font-size: 1.2rem;
+    /* width: 30rem; */
+    width: 85%;
+    text-align: justify;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 3px 5px #555D50;
+}
